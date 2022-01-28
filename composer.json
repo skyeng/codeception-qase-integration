@@ -1,0 +1,15 @@
+{
+  "name": "skyeng/codeception-qase-integation",
+  "description": "codeception extension for QASE.io",
+  "license": "MIT",
+  "require": {
+    "php": "^7.4 || ^8.0",
+    "codeception/codeception": "^2.0 || ^3.0 || ^4.0",
+    "guzzlehttp/guzzle": "^6.0 || ^7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Skyeng\\Codeception\\Qase\\": "src"
+    }
+  }
+}
